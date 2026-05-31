@@ -1,0 +1,30 @@
+{
+  "name": "claude-codex-review",
+  "id": "claude-codex-review",
+  "owner": {
+    "name": "maoningge"
+  },
+  "metadata": {
+    "description": "Route Claude's freshly produced code or plans to the Codex CLI for an independent second-opinion review.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-codex-review",
+      "source": "./",
+      "description": "Hand code or plans Claude just produced to Codex (the codex CLI) for an independent second-opinion review, then evaluate the findings critically rather than accepting them blindly.",
+      "version": "1.0.0",
+      "author": {
+        "name": "maoningge"
+      },
+      "keywords": [
+        "claude-code",
+        "codex",
+        "code-review",
+        "second-opinion",
+        "skill"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
